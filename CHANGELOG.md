@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.39.0](https://github.com/ForesightMiningSoftwareCorporation/octocrab/compare/v0.38.0...v0.39.0) - 2024-07-25
+
+### Added
+- implement delete release
+- add possibility to configure base upload uri
+- implement release assets uploads
+- implement release asset deletion
+- migrate release assets to it's own repos handler
+- implement repos/{owner}/{repo}/releases/{number}
+- allow sending non String payload with execute
+- added /user/blocks functionality ([#657](https://github.com/ForesightMiningSoftwareCorporation/octocrab/pull/657))
+- add method to create repo webhook ([#640](https://github.com/ForesightMiningSoftwareCorporation/octocrab/pull/640))
+
+### Fixed
+- *(builder)* Change add_retry_config signature to match others in OctocrabBuilder ([#643](https://github.com/ForesightMiningSoftwareCorporation/octocrab/pull/643))
+
+### Other
+- Add AutoRebaseEnabled to models.rs ([#660](https://github.com/ForesightMiningSoftwareCorporation/octocrab/pull/660))
+- cargo fmt ([#658](https://github.com/ForesightMiningSoftwareCorporation/octocrab/pull/658))
+- Fix issue [#635](https://github.com/ForesightMiningSoftwareCorporation/octocrab/pull/635) ([#637](https://github.com/ForesightMiningSoftwareCorporation/octocrab/pull/637))
+- Update issues.rs ([#634](https://github.com/ForesightMiningSoftwareCorporation/octocrab/pull/634))
+- Add head repo to create pr ([#636](https://github.com/ForesightMiningSoftwareCorporation/octocrab/pull/636))
+- Added support for make_latest in UpdateReleaseBuilder ([#646](https://github.com/ForesightMiningSoftwareCorporation/octocrab/pull/646))
+- Changing the user name from required to optional parameter ([#650](https://github.com/ForesightMiningSoftwareCorporation/octocrab/pull/650))
+- Update models.rs ([#651](https://github.com/ForesightMiningSoftwareCorporation/octocrab/pull/651))
+
 ## [0.38.0](https://github.com/XAMPPRocky/octocrab/compare/v0.37.0...v0.38.0) - 2024-04-09
 
 ### Added
